@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --bg-cinza-claro: #D9D9D9;
+    --bg-cinza: #ABABAB;
+    --bg-cinza-escuro: #8C8C8C;
+    --bg-azul-marinho-claro: #5E80C7;
+    --bg-azul-marinho-medio: #3E5E9A;
+    --bg-azul-marinho: #1E2A47;
+    --bg-verde-claro: #B1FF7E;
+    --bg-verde: #8CEA4D;
+    --bg-verde-escuro: #7FBA58;
+}
+
+body{
+    background: #D9D9D9;
+    scroll-behavior: smooth;
+    height: 100vh;
+}
+
+.about-text{
+    margin-top: 50px;
+    text-align: justify;
+}
+
+/*#container-navbar{
+    background-image: linear-gradient(to right bottom, #ABABAB, #8C8C8C);
+}*/
+
+#carouselExampleAutoplaying, .carousel-inner {
+    height: 80vh;
+  }
+
+.carousel-item{
+    height: 20cm;
+}
+
+#section-about-us{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+.container-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 2em;
+    color: var(--bg-azul-marinho-claro);
+}
+
+.container-about p{
+    font-size: 1em;
+    text-indent: 1em;
+}
+
+.squad{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.squad-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 5px;
+}
+
+
+
+.squad-cards .card{
+    transition: 0.5s;
+}
+
+.squad-cards .card:hover{
+    transform: scale(1.1);
+}
+
+input[type="text"]{
+    height: 50px;
+    width: 500px;
+    border-radius: 10px;
+    border: 1px solid black;
+    outline: none;
+    padding: 5px;
+    color:black;
+}
+
+input[type="email"]{
+    height: 50px;
+    width: 500px;
+    border-radius: 10px;
+    border: 1px solid black;
+    outline: none;
+    padding: 5px;
+    color:black;
+}
+
+label{
+    color:black;
+}
+
+.form{
+    color:black;
+    border: 1px solid var(--bg-azul-marinho-medio);
+    padding: 30px;
+    border-radius: 15px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea{
+    padding: 10px;
+}
+
+textarea:focus{
+    outline: none;
+}
+
+#enviarBtn{
+    border: none;
+    cursor: pointer;
+    height: 50px;
+    background: var(--bg-azul-marinho);
+    color:white;
+    font-weight: bold;
+    border-radius: 7px;
+    transition: 0.5s;
+}
+
+h1{
+    color: var(--bg-azul-marinho);
+    font-size: 4vh;
+    text-align: center;
+}
+
+#content-body{
+    margin-top: 50px;
+}
+
+#logo-vet{
+    width: 100px;
+    margin: auto;
+}
+
+.clinica-lane{
+    display: flex;
+    gap: 15px;
+}
+
+.clinicas-content {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#clinica a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#btnEnviar{
+    width: 100px;
+    border: none;
+    cursor: pointer;
+    height: 50px;
+    border: 1px solid var(--bg-azul-marinho);
+    background: white;
+    color: var(--bg-azul-marinho);
+    font-weight: bold;
+    border-radius: 7px;
+    transition: 0.5s; 
+    width: 50%;
+}
+
+
+#btnEnviar:hover{
+    background: var(--bg-azul-marinho);
+    transform: scale(1.1);
+    color: white;
+}
+
+#content-associados{
+    display: flex;
+    justify-content: center;
+}
+
+#content-associados .btnClinica{
+    width: 100%;
+}
+
+#img-about {
+    object-fit: contain;
+}
+
+.rodape-todo{
+    background-color: red;
+}
+
+ul{
+    list-style: none;
+}
+
+#rodape-topo{
+    font-size: 20px;
+}
+
+#rodape-corpo input[type="email"]{
+    width: 70%;
+}
+
+#rodape-corpo button{
+    width: 20%;
+}
+
+#rodape-corpo a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.footer-contact {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
